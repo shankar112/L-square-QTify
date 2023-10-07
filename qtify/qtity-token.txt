@@ -1,0 +1,8 @@
+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
+
+
+Netlify install : 
+npm install netlify-cli -g
+
+npm react app install :
+npm install -g create-react-app
