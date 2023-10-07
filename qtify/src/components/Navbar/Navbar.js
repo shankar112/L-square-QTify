@@ -1,8 +1,14 @@
 import React from 'react'
+import Button from '../Button/Button'
+import styles from "./Navbar.module.css"
+import Logo from '../Logo/Logo'
 
 function Navbar() {
   return (
-    <div>Navbar</div>
+    <nav className={styles.navbar}>
+      <Logo />
+      <Button children="Give Feedback"/>
+    </nav>
   )
 }
 
