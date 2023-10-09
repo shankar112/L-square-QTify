@@ -1,0 +1,26 @@
+.card{
+    position: relative;
+    height: 232px;
+    width: 159px;
+    border-radius: 8px;
+    background-color: var(--color-white);
+}
+
+.cardImage{
+    width: 159px;
+    height: 205px;
+}
+
+.cardBtn{
+    width: 105px;
+    height: 15px;
+}
+
+.btn{    
+    /* width: 55px;
+    height: 15px; */
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-radius: 8px;
+    cursor: pointer;
+}
