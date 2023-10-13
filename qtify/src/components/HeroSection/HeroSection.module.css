@@ -1,25 +1,9 @@
 .hero{
-    position: relative;
-    height: 270;
-    width: 100vw;
-}
-
-.heroContent{
-    position: absolute;
-    width: 799px;
-    height: 212px;
-    top: 113px;
-    left: 250px;
     display: flex;
-    flex-flow: column;
     align-items: center;
-    font-size: 32px;
-}
-
-.vibratingHeadphone{
-    position: absolute;
-    width: 212px;
-    height: 212px;
-    top: 65px;
-    left: 947px;
+    justify-content: center;
+    text-align: center;
+    height: 270px;
+    background-color: var(--color-black);
+    gap: 30px;
 }
