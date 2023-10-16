@@ -29,8 +29,8 @@ function App() {
       <HeroSection />
       <div>
         <Section data={topAlbumsData} type="album" title="Top Albums"/>
-        {/* <br/>
-        <Section data={newAlbumsData} type="album" title="New Albums"/> */}
+        <br/>
+        <Section data={newAlbumsData} type="album" title="New Albums"/>
       </div>
     </div>
   );
